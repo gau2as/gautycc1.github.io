@@ -1,0 +1,28 @@
+.main{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+
+
+.anime {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+  footer{
+    background-image: linear-gradient(yellow,green);
+    width: 400px;
+    
+  }
